@@ -12,7 +12,7 @@ export class Name extends Component {
     }
 
     nextName() {
-        this.setState( {Name: "Leopold Иванович", Age: 45} )
+        this.setState( {Name: "Leopold  Иван Иванович", Age: 45} )
     }
 
 
