@@ -21,8 +21,8 @@ export class Likes extends Component {
         return(
             <div>
                 <h1>{this.state.likes} LIKES</h1>
-                <button onClick={ () =>this.updateLikes() }>LIKE+</button>
-                <button onClick={ () =>this.updateMINLikes() }>LIKE-</button>
+                <button onClick={ () =>this.updateLikes() }>LIKE +</button>
+                <button onClick={ () =>this.updateMINLikes() }>LIKE -</button>
             </div>
         )
     }
